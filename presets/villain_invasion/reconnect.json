@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "type": "click",
+      "nx": 0.8055,
+      "ny": 0.2571,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.8078,
+      "ny": 0.2571,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "keypress",
+      "key": "/",
+      "hold_ms": 0,
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "keypress",
+      "key": "renzei",
+      "hold_ms": 0,
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.1579,
+      "ny": 0.0502,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.0652,
+      "ny": 0.674,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.1133,
+      "ny": 0.2994,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.619,
+      "ny": 0.9295,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.3993,
+      "ny": 0.5909,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.2895,
+      "ny": 0.7226,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "click",
+      "nx": 0.6259,
+      "ny": 0.6536,
+      "button": "left",
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "delay",
+      "ms": 15000
+    },
+    {
+      "type": "camera_move",
+      "start_nx": 0.4976,
+      "start_ny": 0.0879,
+      "end_nx": 0.4976,
+      "end_ny": 0.9513,
+      "ctrl_nx": null,
+      "ctrl_ny": null,
+      "duration_ms": 1500,
+      "delay_after_ms": 2000
+    },
+    {
+      "type": "keypress",
+      "key": "o",
+      "hold_ms": 5000,
+      "delay_after_ms": 980
+    },
+    {
+      "type": "keypress",
+      "key": "w",
+      "hold_ms": 4714,
+      "delay_after_ms": 5481
+    },
+    {
+      "type": "keypress",
+      "key": "d",
+      "hold_ms": 1604,
+      "delay_after_ms": 4427
+    }
+  ],
+  "loop": false
+}

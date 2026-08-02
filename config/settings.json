@@ -1,0 +1,22 @@
+{
+  "keybinds": {
+    "record": "F6",
+    "stop": "F7",
+    "play": "F8",
+    "emergency_stop": "F12"
+  },
+  "active_mode": "villain_invasion",
+  "modes": {
+    "default": {
+      "name": "Default Mode",
+      "reconnect_preset": "presets/default_reconnect.json",
+      "place_id": "",
+      "job_id": ""
+    }
+  },
+  "capture_method": "mss",
+  "ocr_engine": "tesseract",
+  "disconnect_poll_interval_ms": 2000,
+  "auto_reconnect_enabled": true,
+  "dev_mode": false
+}
