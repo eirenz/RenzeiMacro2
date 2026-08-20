@@ -1,5 +1,15 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Logs & temporary files
 logs/
+*.log
 .env
 .gemini/
+
+# Sensitive session cookies and credentials
+config/cookie.dat
+*.dat
+config/*.dat

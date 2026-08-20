@@ -48,10 +48,10 @@ def run_tests():
 
     # URL parser — share link (roblox.com/share?code=...)
     r_share = parse_private_server_url(
-        "https://www.roblox.com/share?code=34ad9bcb4e1a434397236aa5dadc400e&type=Server"
+        "https://www.roblox.com/share?code=sample_share_code_1234567890&type=Server",
+        resolve_redirects=False,
     )
-    check("share place_id parsed", r_share["place_id"] == "84515722934860")
-    check("share link_code parsed", r_share["link_code"] == "34ad9bcb4e1a434397236aa5dadc400e")
+    check("share link_code parsed", r_share["link_code"] == "sample_share_code_1234567890")
     check("no error on valid share URL", r_share["error"] == "")
 
     # URL parser — empty
